@@ -4,28 +4,6 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         tools:context=".activity.MainActivity">
-
-    <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerNotes"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-
-    </androidx.recyclerview.widget.RecyclerView>
-
-    <EditText
-            android:id="@+id/editTextNote"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-    <Button
-            android:id="@+id/buttonNoteAdd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Dodaj" />
 
 </LinearLayout>
